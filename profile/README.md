@@ -83,6 +83,5 @@ CyberRangeCZ builds on the innovation started by **KYPO CRP at Masaryk Universit
 
 
 ## Contact & Support
-
-- Browse the repositories’ issues or join GitHub Discussions at: [CyberRangeCZ Issues](https://github.com/cyberrangecz/issues)  
+- Browse the repository's issues or use [CyberRangeCZ Issues](https://github.com/cyberrangecz/issues). You can also join [GitHub Discussions](https://github.com/orgs/cyberrangecz/discussions).  
 - For commercial support, large-scale deployment assistance, or custom integration, visit: [CyberRangeCZ Contact Page](https://www.cyberrange.cz/contact/)
