@@ -1,0 +1,68 @@
+name: 📋 Issue
+description: Report a bug, suggest a feature, or raise any other concern.
+title: "[Issue]: "
+labels: ["triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to open an issue!
+        Please [search existing issues](https://github.com/cyberrangecz/issues/issues) before submitting to avoid duplicates.
+
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Pre-flight checklist
+      options:
+        - label: I have searched existing issues and this has not been reported yet.
+          required: true
+        - label: I have read the [CONTRIBUTING guide](https://github.com/cyberrangecz/.github/blob/master/CONTRIBUTING.md).
+          required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Issue type
+      options:
+        - 🐛 Bug
+        - 🚀 Feature Request
+        - 📖 Documentation
+        - 🔧 Maintenance / Chore
+        - ❓ Question
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and detailed description of the issue. For bugs, include what happened and what you expected. For features, describe the problem you are trying to solve.
+      placeholder: Describe your issue in detail...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce (for bugs)
+      description: Skip this if not a bug.
+      placeholder: |
+        1. ...
+        2. ...
+        3. Observe ...
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Platform version, cloud backend (OpenStack/AWS), Kubernetes version, or any other relevant context.
+      placeholder: |
+        - CyberRangeCZ version: v2026.02
+        - Cloud: OpenStack
+        - Kubernetes: v1.29
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Logs, screenshots, links, or anything else that might help.

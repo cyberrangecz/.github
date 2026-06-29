@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 GitHub Discussions (questions & ideas)
+    url: https://github.com/orgs/cyberrangecz/discussions
+    about: Ask questions, share ideas, or start a general discussion about the platform.
+  - name: 📚 Platform Documentation
+    url: https://docs.platform.cyberrange.cz
+    about: Check the official documentation before opening an issue.
+  - name: 🔒 Security Vulnerability
+    url: https://www.cyberrange.cz/contact/
+    about: Please report security vulnerabilities privately via our contact page — do NOT open a public issue.
