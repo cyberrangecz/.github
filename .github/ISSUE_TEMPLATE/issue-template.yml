@@ -2,6 +2,11 @@ name: 📋 Issue
 description: Report a bug, suggest a feature, or raise any other concern.
 title: "[Issue]: "
 labels: ["triage"]
+assignees:
+  - sapak-cshub
+  - mario-cshub
+  - andy-cshub
+
 body:
   - type: markdown
     attributes:
