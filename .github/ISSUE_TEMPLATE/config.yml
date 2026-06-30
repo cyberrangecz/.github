@@ -7,5 +7,5 @@ contact_links:
     url: https://docs.platform.cyberrange.cz
     about: Check the official documentation before opening an issue.
   - name: 🔒 Security Vulnerability
-    url: mailto:info@cyberrange.cz
-    about: Please report security vulnerabilities privately via email — do NOT open a public issue.
+    url: https://www.cyberrange.cz/contact/
+    about: Please do NOT open a public issue. Report security vulnerabilities privately via our contact page or email info@cyberrange.cz.
