@@ -31,8 +31,8 @@ The CyberRangeCZ Platform is a container-based, microservices architecture optim
 CyberRangeCZ is built atop a modern microservice ecosystem:
 
 - **Sandbox Service** – Manages lifecycle of emulated environments.
-- **Training Service** – Includes Linear Training service.
-- **Supporting Services** – Answers Storage, Elasticsearch, MITRE Technique, User & Group, OIDC provider, etc.
+- **Training Service** – Delivers linear (fixed-level) training definitions and execution.
+- **Supporting Services** – Answers Storage, OpenSearch-backed event logging, MITRE Technique, User & Group, OIDC provider, etc.
 
 Workload infrastructure on Kubernetes and OpenStack/AWS enables flexible deployment and sandbox provisioning.
 
@@ -51,7 +51,7 @@ Workload infrastructure on Kubernetes and OpenStack/AWS enables flexible deploym
 - **`devops-tf-deployment`** – Manages provisioning of cloud infrastructure on OpenStack and AWS using Terraform (via OpenTofu), feeding into the Helm deployment process for full platform installation.
 - **`backend-sandbox-service`** – Provides APIs for sandbox orchestration and lifecycle management.
 - **`backend-training`**, **`backend-answers-storage`** – Java-based microservices powering training logic, assistance, and feedback capture.
-- **`frontend-training-portal`** – The Angular-based web interface for launching training exercises and reviewing progress.
+- **`frontend-platform`** – The Angular-based web interface for launching training exercises and reviewing progress.
 
 
 ## Documentation
