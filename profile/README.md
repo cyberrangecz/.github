@@ -4,7 +4,6 @@
 It enables organizations to create interactive, scenario-based cyber exercises with features like:
 
 - Dynamic sandbox provisioning
-- Adaptive training paths
 - Real-time feedback
 - Centralized user management
 
