@@ -23,7 +23,7 @@ CyberRangeCZ is built to support realistic, automated training simulations desig
 The CyberRangeCZ Platform is a container-based, microservices architecture optimized for creating and running cyber-range exercises:
 
 - Supports **OpenStack** and **AWS** cloud back-ends.
-- Offers both **linear** (fixed-level) and **adaptive** (knowledge-based branching) training models.
+- Offers **linear** (fixed-level) training model.
 - Configured with an **infrastructure-as-code** model.
 
 
@@ -32,8 +32,8 @@ The CyberRangeCZ Platform is a container-based, microservices architecture optim
 CyberRangeCZ is built atop a modern microservice ecosystem:
 
 - **Sandbox Service** – Manages lifecycle of emulated environments.
-- **Training Services** – Includes Linear and Adaptive Training services, integrated with Smart Assistant for real‐time decision logic.
-- **Supporting Services** – Answers Storage, Training Feedback, Elasticsearch, MITRE Technique, User & Group, OIDC provider, etc.
+- **Training Service** – Includes Linear Training service.
+- **Supporting Services** – Answers Storage, Elasticsearch, MITRE Technique, User & Group, OIDC provider, etc.
 
 Workload infrastructure on Kubernetes and OpenStack/AWS enables flexible deployment and sandbox provisioning.
 
@@ -51,7 +51,7 @@ Workload infrastructure on Kubernetes and OpenStack/AWS enables flexible deploym
 - **`tf-module-helm`** – Terraform modules integrating with Helm deployment pipelines.
 - **`devops-tf-deployment`** – Manages provisioning of cloud infrastructure on OpenStack and AWS using Terraform (via OpenTofu), feeding into the Helm deployment process for full platform installation.
 - **`backend-sandbox-service`** – Provides APIs for sandbox orchestration and lifecycle management.
-- **`backend-training`**, **`backend-adaptive-training`**, **`backend-adaptive-smart-assistant`**, **`backend-training-feedback`**, **`backend-answers-storage`** – Java-based microservices powering training logic, adaptive branching, assistance, and feedback capture.
+- **`backend-training`**, **`backend-answers-storage`** – Java-based microservices powering training logic, assistance, and feedback capture.
 - **`frontend-training-portal`** – The Angular-based web interface for launching training exercises and reviewing progress.
 
 
