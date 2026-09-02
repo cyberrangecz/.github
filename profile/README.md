@@ -1,7 +1,7 @@
 # CyberRangeCZ
 
 <details>
-<summary><strong style="font-size:1.3em">Architecture overview diagram</strong></summary>
+<summary><strong style="font-size:1.5em">Architecture overview diagram</strong></summary>
 
 <p align="center">
   <img src="./assets/overview.png" alt="Overview diagram" width="600">
@@ -14,7 +14,6 @@
 </details>
 
 #
-
 **CyberRangeCZ** is an open-source platform for building, delivering, and managing advanced cybersecurity training environments.  
 It enables organizations to create interactive, scenario-based cyber exercises with features like:
 
