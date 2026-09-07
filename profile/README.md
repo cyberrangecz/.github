@@ -1,7 +1,7 @@
 # CyberRangeCZ
 
 <details>
-<summary><h2>Architecture overview diagram</h2></summary>
+<summary><h2>Architecture overview</h2></summary>
 
 <p align="center">
   <img src="./assets/overview.png" alt="Overview diagram" width="1000">
